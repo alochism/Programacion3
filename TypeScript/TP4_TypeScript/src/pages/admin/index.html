@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Store - Panel Admin</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body>
+
+    <main>
+        <!-- Se pide que esta página solo sea accesible para usuarios con rol admin -->
+        <h1>Panel de Administración</h1>
+        <p>Bienvenido, administrador.</p>
+
+        <!-- Botón para cerrar sesión (necesario para probar el flujo completo) -->
+        <button id="btn-logout">Cerrar sesión</button>
+    </main>
+
+    <!-- Conecto el archivo TypeScript que maneja la protección y lógica de esta página -->
+    <script type="module" src="./admin.ts"></script>
+
+</body>
+
+</html>
